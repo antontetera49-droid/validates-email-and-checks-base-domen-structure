@@ -1,0 +1,25 @@
+import re
+
+def validate_email(email):
+    """Validates email format using regex and basic domain structure checks."""
+    try:
+        pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+        if not isinstance(email, str):
+            return False
+        match = re.match(pattern, email.strip())
+        if match:
+            print(f"[+] Email '{email}' is valid.")
+            return True
+        else:
+            print(f"[-] Email '{email}' is invalid.")
+            return False
+    except Exception as e:
+        print(f"[-] Validation error: {e}")
+        return False
+if __name__ == "__main__":
+    validate_email("test.user@example.com")
+    validate_email("invalid-email-string")
+#ALL THIS SCRIPT DOES IS CHECKING IF TEXT IS EMAIL AND CHECKING BASE DOMEN STRUCTURE AS WELL
+# HOW TO RUN
+# INSTALL PYTHON & RE LIBLARIES
+# OR JUST TEXT ME, WILL BE DONE FOR 25-100$. MY TELEGRAM: @Myhamed91
