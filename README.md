@@ -1,2 +1,7 @@
 # validates-email-and-checks-base-domen-structure
-Validates email and checks base domen structure. If you want to integrate this in your project, update, customize, or just dont want to set it by yourself. Just text me, Will be done for 25-100$. My telegram: @Myhamed91
+Validates email and checks base domen structure. 
+
+
+👉 Need custom features or business solutions? Write to Telegram: [@Myhamed91](https://t.me/Myhamed91)
+
+Telegram (https://t.me/Myhamed91)
